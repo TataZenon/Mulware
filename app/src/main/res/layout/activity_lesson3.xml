@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 3 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="บอท(Bot)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bot" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:textSize="20sp"
+                android:text="\t Bot เป็นคำที่ย่อมาจากคำว่า“Robot” ซึ่งเป็นโปรแกรมที่ทำงานในลักษณะที่เรียกว่า Agent โดยจะรอคำสั่งจากเครื่องหรือโปรแกรมอื่นที่สั่งหรือปลุกให้เครื่องที่มี Bot ติดตั้งอยู่ทำงาน ถ้าเครื่อง ของเราถูก Bot ติดเข้าไป เครื่องของเราก็จะถูกโปรแกรมหรือบุคคลอื่น ๆ สั่งงานให้ทำงานอย่างใด อย่างหนึ่งตามเจ้านายหรือบุคคลสั่ง เช่น ให้ส่งข้อมูลส่วนตัวของผู้ใช้งาน ไม่ว่าจะเป็นชื่อ นามสกุล หรือข้อมูลบัตรเครดิต รวมไปถึงการเก็บข้อมูลจากการที่เรากดแป้นคีย์บอร์ด \n \n นอกจากนี้ยังจะบันทึก หรือส่งข้อมูลต่าง ๆ มาเก็บที่เครื่องคอมพิวเตอร์ที่ตกเป็นเหยื่ออีกด้วย
+
+เชื่อหรือไม่ว่า จากผลสำรวจทั่วโลกพบว่า มีเครื่องที่ตกเป็นเหยื่อของเจ้า Bot นี้มากกว่า 6 ล้านเครื่อง เลยทีเดียวและส่วนใหญ่ Bot เหล่านี้ก็จะมาจากการที่เราเข้าไปใช้งานอินเทอร์เน็ต เช่น การดาวน์โหลด ไฟล์ การรับ-ส่งอีเมล การเล่นเกมออนไลน์ ซึ่งการที่เราเข้าไปยังเว็บที่มี Bot ติดอยู่ก็จะทำให้เราติด Bot นี้ไปด้วย \n \n  “AntiSpyCheck” Bot หรือ Malware ตัวนี้จะคอยหลอกว่าเครื่องของเรามีไวรัส หรือมัลแวร์ และชักชวนให้เราติดตั้งหรือสแกนแบบออนไลน์ ซึ่งหากเราหลงเชื่อ คลิกตอบตกลงแล้วล่ะก็ มันจะติด ตั้งโปรแกรมของมันที่เครื่องของเราทันที และจะแจ้งว่าเครื่องเรามีทั้งไวรัส มัลแวร์ต่าง ๆ ไม่ว่าจะ เป็นเวิร์ม โทรจัน และอื่นๆ และยังแจ้งว่ามีบุคคลอื่นๆ กำลังแอ็กเซสเครื่องของเราเพื่อดึงข้อมูลส่วนตัวของเรา ถ้าหากเราไม่ซื้อสินค้าของเขามาใช้งานมันก็จะเตือนเราเรื่อยๆ สร้างความรำคาญใจอย่างมาก ยิ่งไปกว่านั้น ถึงแม้เครื่องเราจะมีโปรแกรมแอนตี้ไวรัสติดตั้งอยู่ ก็ ไม่สามารถช่วยอะไรได้เลย \n \n วิธีกำจัด Bot คือการ Remove แบบ Manual โดยการลบและแก้ไขค่าต่าง ๆ ที่รีจีสทรี การใช้เครื่องมือ เข้ามาช่วยดักจับพวก Bot หรือ Malware ต่างๆ โดยเครื่องมือเหล่านี้จะเป็นส่วนที่เข้าเสริมการทำงาน ในการตรวจจับ
+
+แต่วิธีป้องกันที่ดี เราไม่ควรไป Download โปรแกรมหรือเข้าเว็บไซต์ที่ไม่ปลอดภัย"
+                android:paddingBottom="25sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

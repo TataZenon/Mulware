@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "890370393452",
+    "firebase_url": "https://mulware-b0177.firebaseio.com",
+    "project_id": "mulware-b0177",
+    "storage_bucket": "mulware-b0177.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890370393452:android:807b3359b31eaf5faf5f49",
+        "android_client_info": {
+          "package_name": "ac.th.ssru.tarou.workshop.mulware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890370393452-kd67me3bdt5um3buqta8os2dfbaj8hfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ac.th.ssru.tarou.workshop.mulware",
+            "certificate_hash": "f7de02c1a6282d30442c133d8837961fdfb16553"
+          }
+        },
+        {
+          "client_id": "890370393452-qlgt0tk77qtv5l5lu89ivmk6sdcgm5f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPm6CypyMH4n5znwESo9jTtw_E3JXEqQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890370393452-qlgt0tk77qtv5l5lu89ivmk6sdcgm5f6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

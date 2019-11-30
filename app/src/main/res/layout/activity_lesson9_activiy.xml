@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 9 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ไวรัส(Virus)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:src="@drawable/virus" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:paddingBottom="25sp"
+                android:text="\t คือมัลแวร์ประเภทหนึ่งที่สามารถคัดลอกตัวเองกระจายไปยังเครื่องอื่นๆ โดยผ่านไฟล์
+ประเภทต่างๆ เช่น Script file Document File เป็นต้น เมื่อติดไวรัสแล้วจะส่งผลหลายอย่างเช่น อาจจะถูก ขโมยข้อมูล ทําเครื่องที่โดนไวรัสช้า หรือ หยุดทํางานตลอดเวลา
+ การที่คอมพิวเตอร์ใดติดไวรัส หมายถึงว่าไวรัสได้เข้าไปฝังตัวอยู่ในหน่วยความจํา คอมพิวเตอร์ เรียบร้อยแล้ว เนื่องจากไวรัสก็เป็นแค่โปรแกรม ๆ หนึ่งการที่ไวรัสจะเข้าไปอยู่ในหน่วยความจําได้นั้น จะต้องมีการถูกเรียกให้ทํางานได้นั้นยังขึ้นอยู่กับประเภทของไวรัส แต่ละตัวปกติผู้ใช้มักจะไม่รู้ตัวว่าได้ทํา การปลุกคอมพิวเตอร์ไวรัสขึ้นมาทํางานแล้ว จุดประสงค์ของการทํางานของไวรัสแต่ละตัวขึ้นอยู่กับตัว ผู้เขียนโปรแกรมไวรัสนั้น เช่นอาจสร้างไวรัสให้ไปทําลายโปรแกรมหรือข้อมูลอื่นๆ ที่อยู่ในเครื่อง คอมพิวเตอร์หรือแสดงข้อความวิ่งไปมาบน หน้าจอ เป็นต้น
+"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

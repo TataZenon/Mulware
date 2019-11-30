@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 2 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="แอดแวร์(Adware)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/adsware" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:text="\t แอดแวร์(Adware) เป็นศัพท์เทคนิคมาจากคําว่า Advertising Supported Software ซึงเป็นมัลแวร์ประเภท
+หนึ่งทีเมือติดตั้งแล้ว มักจะมีโฆษณาอยูในตัวโปรแกรมเลย หรือบางครังก็เรียกเปิดหน้าเว็บเพื่อป๊อปอัพขึ้นมาโดยอัตโนมัติ (ไม่ต้องคลิก) ตัวอยางเช่น
+ถ้าเราลองไปดาวน์โหลดโปรแกรมฟรีตามเว็ปต่าง ๆ เราก็จะ
+เห็นโฆษณาสินค้าปรากฏขึ้นมาบ่อย ๆ ถ้าเราอยากให้โฆษณานันหายไป ก็ต้องจ่ายตังค์ค่าลิขสิทธิ์ เพื่อไม่ให้
+มีโฆษณาขึ้นมากวนใจอีกต่อไป
+\n \n อาการของเครื่องที่ติด Adware
+\n1. หน้าหลักของเบราว์เซอร์เปลี่ยนไปเป็นเว็บที่เราไม่รู้จัก
+\n2. หน้าเว็บอาจมีป้ายโฆษณา pop-up เล็กๆ ปรากฏขึ้นมา
+\n3. ในคอมพิวเตอร์จะมีโปรแกรมแปลกๆ โผล่มาโดยที่เราไม่รู้จัก
+\n4. มีแถบ Tool bar แปลกๆ โผล่มาในเว็บเบราว์เซอร์
+\n
+\n วิธีป้องกัน Adware
+\n1.ดาวน์โหลดโปรแกรมจากเว็บไซต์ของผู้พัฒนา หรือเว็บไซต์ที่น่าเชื่อถือได้
+\n2.หลีกเลี่ยงการใช้โปรแกรมประเภท Crack ที่ละเมิดลิขสิทธิ์
+\n3.อ่านรายละเอียดของโปรแกรมที่จะติดตั้งให้ละเอียดทั้งก่อนและขณะติดตั้ง เพราะมีบางกรณีที่เรา สามารถกดเลือกไม่เอาโปรแกรม Adware ที่แถมมาได้
+
+"
+
+                android:textSize="20sp"
+                android:paddingBottom="25sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

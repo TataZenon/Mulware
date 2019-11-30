@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 7 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="สปายแวร์(Spyware)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:src="@drawable/spyware" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:paddingBottom="25sp"
+                android:text="\t  สปายแวร์ ก็คือ โปรแกรมเล็ก ๆ ที่ถูกเขียนขึ้นมาสอดส่อง (สปาย) การใช้งานเครื่องคอมพิวเตอร์ของคุณ อาจจะเพื่อโฆษณาสินค้าต่าง ๆ สปายแวร์บางตัวก็สร้างความรำคาญเพราะจะเปิดหน้าต่างโฆษณาบ่อย ๆ แต่บางตัวร้ายกว่านั้น คือ ทำให้คุณใช้อินเตอร์เน็ทไม่ได้เลย ไม่ว่าจะไปเวบไหน ก็จะโชว์หน้าต่างโฆษณา หรืออาจจะเป็นเวบประเภทลามกอนาจาร พร้อมกับป๊อปอัพหน้าต่างเป็นสิบ ๆ หน้าต่าง
+\n \n
+อาการของเครื่องที่ติด Spyware
+\n 1. มี Pop up ขึ้นมาบ่อยครั้งที่เข้าเว็บ
+\n 2. หน้า Desktop มีไอคอนประหลาดๆ เพิ่มขึ้น
+\n 3. เว็บใดที่เราไม่สามารถเข้าได้ หน้าเว็บโฆษณาของ Spyware จะมาแทนที่
+\n 4. เมื่อเปิด Internet Explorer หน้าเว็บแรกที่พบแสดงเว็บอะไรก็ไม่รู้ ไม่เคยเห็นมาก่อน
+\n \n
+วิธีการป้องกันเพื่อไม่ให้ถูกโจมตีจาก Spyware
+\n 1. ติดตั้งโปรแกรม Anti-Spyware ไว้ในเครื่องคอมพิวเตอร์เพื่อให้ Anti-Spyware สามารถตรวจสอบค้นหาสิ่งแปลกปลอม (Spyware) ที่จะเข้าฝั่งตัวอยู่ภายในเครื่องคอมพิวเตอร์
+\n 2. ไม่ดาว์นโหลดไฟล์ข้อมูลหรือโปรแกรมจากเว็บไซต์ที่ไม่น่าเชื่อถือ ควรจะดาว์นโหลดจากเว็บไซต์ที่น่าเชื่อถือเท่านั้น
+\n 3. .ตรวจ สอบ Update โปรแกรม Antivirus เนื่องจากปัจจุบันมีการสร้าง โปรแกรมประเภท Virus หรือ สปายแวร์ออกมาเผยแพร่ภายในเครือข่ายอินเทอร์เน็ตอยู่ตลอดเวลาทำให้บางครั้ง หากการ Update หรือปรับปรุง antivirus program  หรือ Anti-Spyware อย่างไม่สม่ำเสมอหรือนานๆครั้ง ก็อาจถูกโจมตีจาก ไวรัส หรือ Spyware ได้เช่นกัน
+"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

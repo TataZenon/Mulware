@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 10 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เวิร์ม(Worm)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:src="@drawable/worm" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:paddingBottom="25sp"
+                android:text="\t  หรือหนอนคอมพิวเตอร์ เป็นมัลแวร์ที่พบเจอได้ง่ายที่สุด ด้วยวิธีการแพร่กระจายผ่านระบบ
+เน็ตเวิรค์หรืออินเทอร์เน็ต ผ่านทางช่องโหว่ของระบบปฏิบัติการ เพื่อเข้าสร้างความเสียหาย ลบไฟล์ สร้าง ไฟล์ หรือขโมยข้อมูล โดยส่วนใหญ่หนอนคอมพิวเตอร์จะแพร่กระจายผ่านการส่งอีเมลที่แนบไฟล์ที่มี หนอนคอมพิวเตอร์อยู่ไปยังชื่อผู้ติดต่อของเครื่องที่โดนติดตั้ง
+\n \n
+วิธีการป้องกันเวิร์ม
+\n 1. Windows Defender สำหรับ Windows 10 และ Windows 8.1
+\n 2. Microsoft Safety Scanner สำหรับ Windows 7 และ Windows Vista
+\n  3. นอกจากนี้ยังควรใช้การสแกนแบบเต็มรูปแบบ การสแกนแบบเต็มรูปแบบอาจจะทำให้พบมัลแวร์อื่นๆที่ซ่อนอยู่
+\n 4. ควรสแกนไดร์ฟแบบถอดได้เสมอ ก่อนการเปิดใช้งาน"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

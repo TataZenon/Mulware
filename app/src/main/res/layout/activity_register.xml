@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <LinearLayout
+        android:paddingTop="50dp"
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logos" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/ll1"
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/twnaja02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Mobile Learning System "
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_below="@id/twnaja02"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="     for Malware Study"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/ll2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/regismail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/regispass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regismail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:textColor="#ffffff"
+            android:ems="10"
+            android:textColorHint="#ffffff"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnregisyes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regispass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="ตกลงสมัครใช้งาน"
+            android:textStyle="normal|bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

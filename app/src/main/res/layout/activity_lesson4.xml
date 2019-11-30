@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 4 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="บัค (Bug)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:src="@drawable/bug" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:textSize="20sp"
+                android:text="\t Bug คําคุ้นหูของโปรแกรมเมอร ์ที่เกิดมาจากความผิดพลาด ของโปรแกรมเมอร์ หรือแม้กระทั่งความ
+ผิดพลาดของผู้ใช้งานระบบ จนเป็นช่องโหว่ให้แฮกเกอร์เข้าไปโจมตีระบบได้ นอกจากปัญหาเกี่ยวกับ โปรแกรมแล้ว อาจเป็นปัญหาเกี่ยวกับตัวเครื่องก็ได้ บางทีคนเขียนโปรแกรมอาจจงใจทําไว้ หรืออาจไม่ได้ ตั้งใจก็ได้ เมื่อเกิด bug ในโปรแกรมขึ้นมาสร้างปัญหากวนใจ เราจะใช้การ debug หรือการตรวจสอบแก้ไข จุดบกพร่องของโปรแกรม การสั่งให้โปรแกรมทําการ Debug นั้นก็คือให้โปรมแกรมสามารถทํางานได้เป็น
+ปกติเหมือนเดิม \n \n วิธีป้องกัน และแก้ไข \n หมั่นตรวจเช็คความผิดพลาด และช่องโหว่ของโปรแกรม"
+                android:paddingBottom="25sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

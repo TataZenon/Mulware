@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 1 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="มัลแวร์(Malware)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/malware" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:textSize="20sp"
+                android:text="\t ในยุคนี้คำว่า Virus (ไม่ว่าจะเป็นไวรัสที่ติดกับคน หรือติดกับ Computer) เป็นคำที่ได้ยินจนคุ้นหูกันแล้ว แต่สำหรับคำว่า Malware อาจจะเป็นคำที่ไม่ได้ยินบ่อยนัก หรืออาจจะสงสัยว่ามันคืออะไรกันแน่ คำว่า Malware นั้นเป็นคำย่อๆ ของคำว่า Malicious Software คือ ซึ่งเป็นคำจำกัดความของเหล่าบรรดาซอฟต์แวร์ที่ถูกสร้างมาเพื่อขโมยข้อมูล หรือ หลบเลี่ยงการตรวจสอบในการเข้าถึงระบบ หรือพยายามทำให้เครื่องที่ติดตั้งซอฟต์แวร์เสียหาย และไวรัสก็เป็นหนึ่งในมัลแวร์ด้วยเช่นกัน ในเบื้องต้นสามารถแยกเป็นประเภท ได้ 9 ประเภทด้วยกัน"
+                android:paddingBottom="25sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

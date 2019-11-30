@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 5 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="แรนซัมแวร์ (Ransomware)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:src="@drawable/ransom" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:textSize="20sp"
+                android:text="\t Ransomware มัลแวร์ประเภทนี้จะทําการเข้ารหัสไฟล์ให้ไม่สามารถปิดใช้งานได้ ซึ่งถ้าต้องการให้สามารถ
+ใช้งานได้อีกครั้งจําเป็นต้องจ่ายเงินค่าไถ่ให้กับเหล่าแฮกเกอร์เพื่อถอดรหัสไฟล์เหล่านั้น
+\n \n
+ช่องทางการแพร่กระจายของ Ransomware \n 1. แฝงมาในรูปแบบเอกสารแนบทางอีเมล \n 2. แฝงตัวมาในรูปแบบของ Malvertising (โฆษณา) \n 3.เชื่อมโยงไปยังเว็บไซต์อันตรายและอาศัยช่องโหว่ของซอฟต์แวร์
+\n \n
+วิธีป้องกัน Ransomware
+\n 1. ทำการสำรองข้อมูลเป็นประจำ \n 2. อัพเดทซอฟแวร์ในเครื่องอย่างสม่ำเสมอ \n 3. ตรวจสอบอีเมลที่เป็นอันตรายเบื้องต้น \n 4. ติดตั้งโปรแกรมป้องกันมัลแวร์ ลงบนเครื่องคอมพิวเตอร์
+เพื่อป้องกันการเข้าถึงเว็บไซต์ที่เป็นอันตรายและตรวจสอบไฟล์ทั้งหมดที่ถูกดาวน์โหลด \n \n
+วิธีการแก้ไขเมื่อติด Ransomware
+
+\n 1. เราสามารถใช้ System Restore เพื่อ Restore ไปยังวันก่อนที่จะติด Ransomware ได้ เมื่อ Restore
+เรียบร้อยแล้วจะพบว่า Ransomware เหล่านั้นจะไม่ได้ถูกติดตั้งในเครื่องของเราแต่อย่างใด Boot เข้าแผ่น Rescue CD ของ Antivirus ต่างๆทําการลบ file ต่างๆที่เกี่ยวกับ Malware เหล่านั้นได้เช่น Kaspersky, MalwareBytes เป็นต้น
+ \n 2. หากเครื่องท่านติด Ransomware ที่มีชื่อว่า CryptoLocker สามารถนําไฟล์ที่ถูกเข้ารหัสเหล่านั้นไป ถอดรหัสด้วยบริการในเว็บไซด์ที่ถูกสร้างขึ้นมาโดยเฉพาะ แน่นอนว่าเป็นบริการแบบใช้งานได้ฟรี โดยเป็นการร่วมมือกันระหว่าง 2 บริษัทยักษ์ใหญ่ทางด้านต่อต้านภัยคุกคาม FireEye และ Fox-IT โดยเว็บ ไซด์สําหรับการถอดรหัสไฟลคือ decryptcryptolocker.com
+"
+                android:paddingBottom="25sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

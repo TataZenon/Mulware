@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".LessonActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Lesson"
+        android:textColor="#ffffff"
+        android:textSize="50sp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+            <Button
+                android:id="@+id/ls1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 1" />
+
+            <Button
+                android:id="@+id/ls2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 2" />
+
+            <Button
+                android:id="@+id/ls3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 3" />
+
+            <Button
+                android:id="@+id/ls4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 4" />
+
+            <Button
+                android:id="@+id/ls5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 5" />
+
+            <Button
+                android:id="@+id/ls6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 6" />
+
+            <Button
+                android:id="@+id/ls7"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 7" />
+
+            <Button
+                android:id="@+id/ls8"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 8" />
+
+            <Button
+                android:id="@+id/ls9"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 9" />
+
+            <Button
+                android:id="@+id/ls10"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Lesson 10" />
+
+            <Button
+                android:id="@+id/lsquestion"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="QUIZ" />
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

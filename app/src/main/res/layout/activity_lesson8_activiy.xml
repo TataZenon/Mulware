@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 8 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ม้าโทรจัน(Trojan Horse)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:src="@drawable/trojan" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:paddingBottom="25sp"
+                android:text="\t คือโปรแกรมที่ถูกโหลดเข้าไปในคอมพิวเตอร์ เพื่อ ปฏิบัติการ ล้วงความลับ
+            เช่น User ID, Password และข้อมูลส่วนตัวเกี่ยวกับการ Login ระบบ ที่ถูกพิมพ์ผ่านคีย์บอร์ดโดยผู้ใช้งาน โดยส่วนใหญ่แฮคเกอร์จะส่งโปรแกรมม้าโทรจัน เข้าไปในคอมพิวเตอร์เพื่อดักจับข้อมูลดังกล่าว แล้ว นําไปใช้ในการเจาะระบบ หรือเพื่อโจมตีคอมพิวเตอร์ เซิร์ฟเวอร์ การป้องกันกําจัดม้าโทรจัน \n\n วิธีการป้องกัน \n 1. ใช้ Firewall เพื่อป้องกันการถูกโจมตีจากแฮคเกอร์
+ \n 2. ใช้ซอฟต์แวร์สําหรับการตรวจจับและทําลายโทรจัน \n 3. ติดตั้งแอนตี้ไวรัสคุณภาพสูง"
+
+            android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

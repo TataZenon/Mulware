@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".Lesson1Activity">
+
+    <LinearLayout
+        android:id="@+id/llles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="บทที่ 6 "
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="รูทคิต(Rootkit)"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:src="@drawable/rootkit" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#80ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:paddingBottom="25sp"
+                android:text="\t รูทคิตเป็นมัลแวร์ที่สามารถควบคุมเครื่อง หรือ เข้าใช้เครื่องที่ถูกติดตั้งได้จากระยะไกล และมีคุณสมบัติ
+เด่นในด้านการหลบซ่อน ทําให้จะทําการลบ หรือ ตรวจจับเป็นไปได้ยาก การทํางานของ Rootkit โดยทั่วไปแล้วคือ การปกปิด User Login ที่ใช้ในการเข้าสู่ระบบ, โพรเซส, ไฟล์, Log, โปรแกรมที่ใช้ในการดักจับข้อมูล และการต่อเชื่อมกับระบบเน็ตเวิร์ก ซึ่งใน Rootkit หลายต่อหลายตัว นั้นถูกจัดให้อยู่ในพวกเดียวกับม้าโทรจันด้วย เนื่องด้วยการทํางานที่คล้ายกันมาก
+โดยทั่วไปมีสามประเภท Rootkit ประเภทแรกคือ เคอร์เนล Rootkits มักจะเพิ่มรหัสของตัวเองไปยังส่วนของแกนระบบปฏิบัติการในขณะที่ชนิดที่สอง Rootkits ในโหมดผู้ใช้ มีการกำหนดเป้าหมายโดยเฉพาะสำหรับ Windows เพื่อเริ่มต้นใช้งานโดยปกติในระหว่างการเริ่มต้นระบบหรือฉีดเข้าไปในระบบโดยใช้ชื่อว่า  Dropper  ประเภทที่สามคือ MBR Rootkits หรือ Bootkits.
+\n \n
+ลักษณะการแพร่กระจายของรูทคิต (Rootkits)
+\n รูทคิตเป็นชนิดของซอฟแวร์ที่เป็นอันตราย ที่ออกแบบมาเพื่อการเข้าถึงจากระยะไกล เช่น ไฟล์ที่แนบมาจากอีเมลล์ หรือการคลิกลิงก์ใดๆ และการเข้าไปยังหน้าเว็บไซต์ที่แปลกๆ โดยที่จะเข้าควบคุมคอมพิวเตอร์และไม่ถูกตรวจพบโดยโปรแกรมรักษาความปลอดภัยของผู้ใช้
+\n \n การแก้ไขและกำจัดรูทคิตในคอมพิวเตอร์
+\n ในปัจจุบันมีเทคโนโลยีที่ออกแบบมาเพื่อกำจัดรูทคิตจำนวนมาก แต่โดยลักษณะทั่วไปของรูทคิตจะไม่สามารถตรวจจับได้จากโปรแกรมแอนตี้ไวรัส ในกรณีนี้ให้ใช้โปรแกรมแอนตี้ไวรัส เช่น Windows Defender Offline ทำการสแกนแบบออฟไลน์ ซึ่งมักจะถูกออกแบบมาเพื่อกำจัดมัลแวร์ที่ตรวจจับได้ยากโดยเฉพาะ
+"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
